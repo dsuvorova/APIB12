@@ -6,12 +6,12 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features ="src/test/resources/features",
-        glue="stepdefs",
+        features = "src/test/resources/features",
+        glue = "step_defs",
         dryRun = false,
         tags = "@covid",
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
-public class Runner {
 
+public class Runner {
 }
