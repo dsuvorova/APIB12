@@ -7,7 +7,7 @@ import org.junit.Test;
 import pojo.CatFactsPojo;
 
 public class CatFacts {
-
+//standard setup of a get request when needing to pull some sort of data
 
     @Test
     public void catFactsTest() {
